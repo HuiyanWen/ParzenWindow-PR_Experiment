@@ -30,20 +30,20 @@ testData = testData[0:1500]
 #sample = np.random.randn(200, 2)*0.5
 u = [0, 0.7, 1.4]
 b = [0.5, 0.7, 0.3]
-print(b[2]**2)
 X1 = testData[:500, 0]
 Y1 = testData[:500, 1]
-Z1 = (1.0/(np.pi*2*(b[0]**2)))*np.exp(-0.5*(((X1-u[0])**2)/(b[0]**2)+((Y1-u[0])**2)/(b[0]**2)))
+Z1 = (1.0/(np.pi*2*(b[0])))*np.exp(-0.5*(((X1-u[0])**2)/(b[0])+((Y1-u[0])**2)/(b[0])))
 X2= testData[500:1000, 0]
 Y2 = testData[500:1000, 1]
-Z2 = (1.0/(np.pi*2*(b[1]**2)))*np.exp(-0.5*(((X2-u[1])**2)/(b[1]**2)+((Y2-u[1])**2)/(b[1]**2)))
+Z2 = (1.0/(np.pi*2*(b[1])))*np.exp(-0.5*(((X2-u[1])**2)/(b[1])+((Y2-u[1])**2)/(b[1])))
 X3 = testData[1000:1500, 0]
 Y3 = testData[1000:1500, 1]
-Z3 = (1.0/(np.pi*2*(b[2]**2)))*np.exp(-0.5*(((X3-u[2])**2)/(b[2]**2)+((Y3-u[2])**2)/(b[2]**2)))
+Z3 = (1.0/(np.pi*2*(b[2])))*np.exp(-0.5*(((X3-u[2])**2)/(b[2])+((Y3-u[2])**2)/(b[2])))
 X = np.append(X1, np.append(X2, X3))
 Y = np.append(Y1, np.append(Y2, Y3))
 Z = np.append(Z1, np.append(Z2, Z3))
 fig = plt.figure()
 ax = fig.gca(projection='3d')
+#ax.plot_trisurf(X3, Y3, Z3, cmap='viridis', edgecolor='none')
 ax.plot_trisurf(X, Y, Z, cmap='viridis', edgecolor='none')
 plt.show()

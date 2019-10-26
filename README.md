@@ -6,7 +6,7 @@ The implementation strictly follow the ["Pattern Classification second edition"]
 <div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/parzenwindow's%20formula.png" width="50%" height="25%" alt="Loading failed"/></div>
 
 ### The flowchart of ParzenWindow
-
+<div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/flowchart.png" alt="Loading failed"/></div>
 
 ### Code illustration
 |方法名|所属文件|功能|
@@ -25,15 +25,70 @@ The implementation strictly follow the ["Pattern Classification second edition"]
 | main | initia_distribution.py | 绘制初始分布 |
 
 ### Expriments and results
+We let test samples' num stay 300 during the whole lab, and adjust the training num <b>N</b> and window size<b>h</b>.
 
 ##### initial distribution 
 
 <div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/initial%20distribution.png" width="50%" height="50%"/></div>
 
+##### the left is the train set, the other is the test set. 
 <table width=20><tr>
 <td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/test%20initaial%20distribution.png"/></div></td>
 
 <td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/traininitaial%20distribution.png"/></div></td>
 </tr></table>
 
+##### N=30 h=0.5 accuracy=0.5367
+<div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/10%200.5.png" width="50%" height="50%"/></div>
 
+##### The tint dots are test samples' inference result, you can see most of them are around the corresponding train samples, and this phenomenon illustrates we are right.
+<div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/10%200.5%200.5367.png" width="50%" height="50%"/></div>
+
+##### N=30 h=1 accuracy=0.4233
+<table width=20><tr>
+<td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/10%201.png"/></div></td>
+
+<td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/10%201%200.4233.png"/></div></td>
+</tr></table>
+
+##### N=30 h=5 accuracy=0.3333
+<table width=20><tr>
+<td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/10%205.png"/></div></td>
+
+<td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/10%205%200.3333.png"/></div></td>
+</tr></table>
+
+##### N=90 h=0.5 accuracy=0.56
+<table width=20><tr>
+<td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/30%200.5.png"/></div></td>
+
+<td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/30%200.5%200.56.png"/></div></td>
+</tr></table>
+
+##### N=90 h=1 accuracy=0.4667
+<table width=20><tr>
+<td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/30%201.png"/></div></td>
+
+<td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/30%201%200.4667.png"/></div></td>
+</tr></table>
+
+##### N=90 h=5 accuracy=0.4233
+<table width=20><tr>
+<td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/30%205.png"/></div></td>
+
+<td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/30%205%200.3333.png"/></div></td>
+</tr></table>
+
+##### N=30 h=1 accuracy=0.4233
+<table width=20><tr>
+<td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/10%201.png"/></div></td>
+
+<td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/10%201%200.4233.png"/></div></td>
+</tr></table>
+
+##### N=300 h=0.5 accuracy=0.6
+<table width=20><tr>
+<td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/100%200.5.png"/></div></td>
+
+<td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/100%200.5%200.6.png"/></div></td>
+</tr></table>

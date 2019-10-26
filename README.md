@@ -72,18 +72,11 @@ We let test samples' num stay 300 during the whole lab, and adjust the training 
 <td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/30%201%200.4667.png"/></div></td>
 </tr></table>
 
-##### N=90 h=5 accuracy=0.4233
+##### N=90 h=5 accuracy=0.3333
 <table width=20><tr>
 <td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/30%205.png"/></div></td>
 
 <td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/30%205%200.3333.png"/></div></td>
-</tr></table>
-
-##### N=30 h=1 accuracy=0.4233
-<table width=20><tr>
-<td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/10%201.png"/></div></td>
-
-<td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/10%201%200.4233.png"/></div></td>
 </tr></table>
 
 ##### N=300 h=0.5 accuracy=0.6
@@ -92,3 +85,41 @@ We let test samples' num stay 300 during the whole lab, and adjust the training 
 
 <td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/100%200.5%200.6.png"/></div></td>
 </tr></table>
+
+##### N=300 h=1 accuracy=0.5367
+<table width=20><tr>
+<td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/100%201.png"/></div></td>
+
+<td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/100%201%200.5367.png"/></div></td>
+</tr></table>
+
+##### N=300 h=5 accuracy=0.5367
+<table width=20><tr>
+<td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/100%201.png"/></div></td>
+
+<td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/100%201%200.5367.png"/></div></td>
+</tr></table>
+
+##### N=1200 h=0.5 accuracy=0.6667
+<table width=20><tr>
+<td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/400%200.5.png"/></div></td>
+
+<td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/400%200.5%200.6667.png"/></div></td>
+</tr></table>
+
+##### N=1200 h=1 accuracy=0.5667
+<table width=20><tr>
+<td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/400%201.png"/></div></td>
+
+<td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/400%201%200.5667.png"/></div></td>
+</tr></table>
+
+##### N=1200 h=5 accuracy=0.3833
+<table width=20><tr>
+<td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/400%205.png"/></div></td>
+
+<td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/400%205%200.3833.png"/></div></td>
+</tr></table>
+
+##### Set N=1200, the accuracy changes with h.
+<div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/400%20h%20accuracy.png" width="50%" height="50%"/></div>

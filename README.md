@@ -1,5 +1,5 @@
 # ParzenWindow-PR_Experiment
-Implement the parzenwindow, which is the experiment 1 in Pattern Recognition.(Harbin Institute of Technology, CS, Master). I've read a few ParzenWindow samples which realized by Pyhton, but none of them are correct, so I spend three days in understanding and programing it. Hope it'll help you:)
+Implement the parzenwindow, which is the experiment 1 in Pattern Recognition.(Harbin Institute of Technology, CS, Master). I've read a few ParzenWindow samples which realized by Python, but none of them are correct, so I spend three days in understanding and programing it. Hope it'll help you:)
 ### Formula
 The implementation strictly follow the ["Pattern Classification second edition"](http://blog.sina.com.cn/s/blog_c3b6050b0102xg24.html). Specifically, the references are in <b>page 138</b>, it is as follows:
 
@@ -31,7 +31,7 @@ We let test samples' num stay 300 during the whole lab, and adjust the training 
 
 <div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/initial%20distribution.png" width="50%" height="50%"/></div>
 
-##### the left is the train set, the other is the test set. 
+##### the left is the test set, the other is the train set. 
 <table width=20><tr>
 <td><div align=center><img src="https://github.com/HuiyanWen/ParzenWindow-PR_Experiment/blob/master/pic/test%20initaial%20distribution.png"/></div></td>
 
